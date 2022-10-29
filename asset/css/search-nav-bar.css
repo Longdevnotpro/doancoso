@@ -4,24 +4,6 @@
     box-sizing: 0;
 }
 
-#header{
-    position: sticky;;
-    display: flex;
-    background-color: #29292f;
-    opacity: 0.9;
-    width: 100%;
-    height: 60px;
-    align-items: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
-.name-page{
-    color: white;
-    width: 30%;
-    text-align: center;
-}
 
 .nav{
     width: 50%;
