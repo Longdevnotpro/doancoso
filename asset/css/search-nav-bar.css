@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+#header{
+    position: sticky;;
+    display: flex;
+    background-color: #29292f;
+    opacity: 0.9;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.name-page{
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+.nav{
+    width: 50%;
+}
+
+.nav ul{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav ul li{
+    margin-left: 20px;
+}
+
+.login-register{
+    width: 20%;
+}
+
+.login-register ul{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.login-register ul li{
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+li{
+    list-style-type: none;
+}
+
+#Body{
+    margin-top: 25px;
+}
+
+.search-content{
+    margin: auto;
+    background-color: orange;
+    width: 80%;
+    height: 100px;
+}
+
+.input-search-content{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-search-content input{
+    width: 50%;
+    height: 50%;
+    border: none;
+}
+
+.input-search-content .btn-search{
+    background-color: white;
+    height: 50%;
+    width: 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.btn{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.btn button{
+    height: 30px;
+    width: 13%;
+}
+
+
+.content2{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+}
+
+.content2 .show-text{
+    width: 60%;
+    height: 50px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+.content2 .search-history{
+    width: 30%;
+    height: 450px;
+    background-color: darkgray;
+}
+
+
+#footer{
+    background-color: #29292f;
+    opacity: 0.8;
+    height: 60px;
+    width: 100%;
+}
