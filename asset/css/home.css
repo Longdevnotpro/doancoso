@@ -2,13 +2,13 @@
     height: 80%;
     width: 100%;
     background-color:rgb(230, 227, 227);
+    padding-top: 80px;
 }
 
 .container-slide{
     width: 100%;
     height: 30%;
     background-color: aqua;
-    margin-top: 50px;
 }
 
 .container-content{
