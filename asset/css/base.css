@@ -103,12 +103,12 @@
     width: 70%;
 }
 
-.leftHeader .item {
+.leftHeader>.headerItem {
     padding-right: 30px;
     transition: 0.3s all;
 }
 
-.leftHeader .item:hover {
+.leftHeader>.headerItem:hover {
     background-color: rgb(163, 175, 135);
     padding: 20px;
     border-radius: 10px;
