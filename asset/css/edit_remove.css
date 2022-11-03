@@ -48,13 +48,15 @@
     background-color: #eaeaea;
 }
 
-.content2 .btn-edit_remove{
+.content2 .btn_edit_remove{
     display: grid;
-    height: min-content;
+    height: max-content;
 }
 
-.content2 .btn-edit_remove button{
-    display: flex;
+.content2 .btn_edit_remove button{
+    /* display: flex; */
+    height: 25px;
+    width: 25px;
 }
 
 
@@ -66,8 +68,11 @@
     margin-left: 80px;
 }
 
+.content2 .filter span{
+    
+}
+
 .content2 .filter form{
     margin-top: 10px;
-    display: grid;
-    justify-items: start;
+    
 }

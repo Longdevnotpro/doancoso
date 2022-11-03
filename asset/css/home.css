@@ -1,14 +1,14 @@
 .container{
     height: 80%;
     width: 100%;
-    background-color:rgb(230, 227, 227);
+    background-color:#white;
     padding-top: 80px;
 }
 
 .container-slide{
     width: 100%;
     height: 30%;
-    background-color: aqua;
+    background-color: #eaeaea;
 }
 
 .container-content{
@@ -26,7 +26,7 @@
 .container-showpara{
     height: 120px;
     width: 100%;
-    background-color: rgb(168, 164, 164);
+    background-color: #eaeaea;
     margin-top: 5%;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .content-2{
-    background-color: aqua;
+    background-color: #eaeaea;
     height: 50%;
     width: 30%;
     margin: 0 10px;
