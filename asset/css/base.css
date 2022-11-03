@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --header-color: #32325d;
     --wrap-color: white;
-    --slide-color: #596A7D;
+    --slide-color: #1b3867;
     --content-color: #eaeaea;
     --btn-color: rgb(184, 147, 147);
 }
@@ -92,7 +92,10 @@
     /* display: none; */
     width: 25%;
     list-style: none;
-    text-align: end;
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    justify-content: flex-end;
 }
 
 .header-login img {
@@ -131,8 +134,10 @@
     line-height: 50px;
 }
 
-.user-list>li:hover {
-    background-color: rgb(163, 175, 135);
+.user-list>li:hover,
+.user-list>li:hover a {
+    background-color: #2980b9;
+    color: #ffffff;
 }
 
 .container {
