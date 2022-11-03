@@ -1,14 +1,6 @@
-#main{
-    
-}
-
-#body{
-    
-}
-
 .search-content{
     margin: auto;
-    background-color: orange;
+    background-color: var(--slide-color);
     width: 80%;
     height: 100px;
 }
@@ -27,7 +19,7 @@
 }
 
 .input-search-content .btn-search{
-    background-color: white;
+    background-color: var(--btn-color);
     width: 30px;
     text-align: center;
     line-height: 1.6;
@@ -41,24 +33,25 @@
 .btn button{
     height: 30px;
     width: 13%;
+    background-color: var(--btn-color);
 }
 
 
 .content2{
     display: flex;
     justify-content: space-between;
-    padding: 25px 50px;
+    padding: 25px 20px;
 }
 
 .content2 .show-text{
     width: 60%;
-    height: 50px;
-    background-color: darkgray;
+    height: 120px;
+    background-color: var(--content-color);
     text-align: center;
 }
 
 .content2 .search-history{
     width: 30%;
-    height: 500px;
-    background-color: darkgray;
+    height: 450px;
+    background-color: var(--content-color);
 }
