@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../asset/css/search-nav-bar.css">
+    <link rel="stylesheet" href="/doancoso/asset/css/edit_remove.css">
     <script src="https://kit.fontawesome.com/50a3c67631.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../asset/css/base.css">
-    <title>Search</title>
+    <link rel="stylesheet" href="/doancoso/asset/css/base.css">
+    <title>Edit</title>
 </head>
+
 <body>
     <div class="wrap">
         <!-- Header -->
@@ -39,7 +41,7 @@
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                 </div>
-                
+
                 <div class="btn">
                     <button>Chương</button>
                     <button>Điều</button>
@@ -47,14 +49,29 @@
                     <button>Mục</button>
                     <button>Mức Phạt</button>
                 </div>
-                
+
             </div>
             <div class="content2">
                 <div class="show-text">
-                    Văn bản hiển thị
+                    
                 </div>
-                <div class="search-history">
-                    Lịch sử tìm kiếm
+                <div class="btn_edit_remove">
+                    <button>
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-trash-arrow-up"></i>
+                    </button>
+                </div>
+                <div class="filter">
+                    <span>Bộ lọc</span>
+                    <form>
+                        <input type="checkbox" name="sport" value="Chương">Chương
+                        <input type="checkbox" name="sport" value="Điều">Điều
+                        <input type="checkbox" name="sport" value="Khoản">Khoản
+                        <input type="checkbox" name="sport" value="Mục">Mục
+                        <input type="checkbox" name="sport" value="Mức phạt">Mức phạt
+                    </form>
                 </div>
             </div>
 
@@ -66,4 +83,5 @@
         </div>
     </div>
 </body>
+
 </html>
