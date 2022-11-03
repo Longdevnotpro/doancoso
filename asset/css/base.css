@@ -56,7 +56,7 @@
 .rightHeader {
     width: 25%;
     text-align: end;
-    /* display: none; */
+    display: none;
 }
 
 .rightHeader .btn-login {
@@ -80,14 +80,14 @@
 }
 
 .header-login {
-    display: none;
+    /* display: none; */
     width: 25%;
     list-style: none;
     text-align: end;
 }
 
 .header-login img {
-    width: 80px;
+    width: 75px;
     padding: 15px 20px;
     margin-right: 40px;
 }
