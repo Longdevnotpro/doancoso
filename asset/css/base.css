@@ -88,10 +88,10 @@
 }
 
 .header-login {
+    display: flex;
     /* display: none; */
     width: 13%;
     list-style: none;
-    display: flex;
     height: 100%;
     /* align-items: center; */
     justify-content: flex-end;
@@ -118,7 +118,7 @@
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
 }
 
-.header-login li:hover .user-list {
+.header-login>li:hover .user-list{
     display: block;
 }
 
