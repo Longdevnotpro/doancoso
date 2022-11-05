@@ -5,7 +5,21 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="../../asset/css/base.css" />
     <link rel="stylesheet" href="../../asset/css/home.css" />
-    <script src="https://kit.fontawesome.com/50a3c67631.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/50a3c67631.js" crossorigin="anonymous">
+    </script>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("userList");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
     <title>Home</title>
   </head>
   <body>
@@ -21,26 +35,27 @@
           <a class="headerItem" href="../html/new-para.html">Văn bản mới</a>
           <a class="headerItem" href="../html/edit_remove.html">Chỉnh sửa điều khoản</a>
         </div>
-      
-          <div class="rightHeader">
-            
-            <a class="btn-login" href="../html/login.html">Đăng nhập</a>
-          
-            <a class="btn-register" href="../html/register.html">Đăng kí</a>
-          </div>
 
-          <div class="header-login">
-            
-            <li>
-              <a href="" class="user"><img src="../../asset/img/user.png" alt=""></a>
-              <ul class="user-list">
+        <div class="rightHeader">
+          <a class="btn-login" href="../html/login.html">Đăng nhập</a>
+
+          <a class="btn-register" href="../html/register.html">Đăng kí</a>
+        </div>
+
+        <div class="header-login">
+          <li>
+            <button class="user" onclick="myFunction()">
+              <img src="../../asset/img/user.png" alt="" />
+            </button>
+            <div id="userList">
+              <ul>
                 <li><a href="./create-profile.html">Your account</a></li>
                 <li><a href="./edit_remove.html">Admin</a></li>
                 <li><a href="">Logout</a></li>
               </ul>
-            </li>
-          </div>
-
+            </div>
+          </li>
+        </div>
       </div>
 
       <div class="container">
@@ -82,7 +97,6 @@
       </div>
       <!-- Footer -->
       <footer>1</footer>
-
     </div>
     <script></script>
   </body>
