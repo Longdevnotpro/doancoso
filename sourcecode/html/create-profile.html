@@ -44,7 +44,17 @@
           <div class="image">
             <label class="inputFile">
               <i class="fa-solid fa-image"></i>
-              <input type="file" id="fileInput" style="display: none" />
+              <input id="fileInput" type="file" accept="image/*" onchange="loadFile(event)" style="display: none"/>
+              <img id="output" />
+              <script>
+                var loadFile = function (event) {
+                  var output = document.getElementById("output");
+                  output.src = URL.createObjectURL(event.target.files[0]);
+                  output.onload = function () {
+                    URL.revokeObjectURL(output.src); // free memory
+                  };
+                };
+              </script>
             </label>
             <!-- <div class="btnUpload">
               <button
@@ -66,7 +76,7 @@
           <div class="info">
             <div class="item">
               <i class="fa-solid fa-user"></i>
-              <input type="text" placeholder="Enter your name" /> 
+              <input type="text" placeholder="Enter your name" />
             </div>
             <div class="item">
               <i class="fa-solid fa-envelope"></i>
