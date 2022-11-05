@@ -67,7 +67,6 @@ button {
 .inputFile {
     width: 150px;
     height: 150px;
-    border: 2px solid #b9b8b8;
     cursor: pointer;
     border-radius: 5px;
 }
