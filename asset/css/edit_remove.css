@@ -34,6 +34,7 @@
 .btn button {
     height: 30px;
     width: 13%;
+    background-color: var(--btn-color);
 }
 
 
@@ -61,18 +62,9 @@
 
 
 
-.content2 .filter {
+.content2 .history {
     width: 30%;
     height: 500px;
     background-color: var(--content-color);
     margin-left: 80px;
-}
-
-.content2 .filter span{
-    
-}
-
-.content2 .filter form{
-    margin-top: 10px;
-    
 }
