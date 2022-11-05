@@ -3,11 +3,14 @@
     width: 80%;
     background-color: var(--content-color);
     margin: 1.5% auto;
+    border: 2px solid #333;
+    border-radius: 15px;
 }
 
 .content-showpara{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .content-showpara >span{
@@ -39,4 +42,5 @@
 .content-2{
     margin-top: 4%;
     margin-right: 50px ;
+    
 }

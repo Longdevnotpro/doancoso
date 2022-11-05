@@ -14,9 +14,12 @@
 }
 
 .input-search-content input {
-    width: 50%;
+    width: 30%;
     height: 50%;
     border: none;
+    border: 2px solid;
+    border-radius: 15px;
+    padding-left: 10px;
 }
 
 .input-search-content .btn-search {
@@ -24,6 +27,8 @@
     width: 30px;
     text-align: center;
     line-height: 1.6;
+    border: 2px solid;
+    border-radius: 15px;
 }
 
 .btn {
@@ -48,11 +53,15 @@
     width: 60%;
     height: 120px;
     background-color: var(--content-color);
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 15px;
 }
 
 .content2 .btn_edit_remove{
     display: grid;
     height: max-content;
+    margin-top: 30px;
 }
 
 .content2 .btn_edit_remove button{
@@ -66,5 +75,8 @@
     width: 30%;
     height: 500px;
     background-color: var(--content-color);
+    text-align: center;
     margin-left: 80px;
+    border: 2px solid #333;
+    border-radius: 15px;
 }

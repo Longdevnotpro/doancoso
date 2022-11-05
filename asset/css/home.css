@@ -21,6 +21,8 @@
     width: 100%;
     background-color: var(--content-color);
     margin-top: 2.92%;
+    border: 2px solid #333;
+    border-radius: 15px;
 }
 
 .content-showpara{
@@ -60,6 +62,8 @@
     width: 30%;
     margin: 0 10px;
     margin-top: 2%;
+    border: 2px solid #333;
+    border-radius: 15px;
 }
 
 .content-2 > span{
