@@ -13,8 +13,8 @@
 }
 
 .wrap {
-    width: 5000px;
-    height: 5000px;
+    /* width: 5000px; */
+    /* height: 5000px; */
     max-width: 100%;
     max-height: 100%;
     background-color: var(--wrap-color);
@@ -179,11 +179,11 @@
 /* End Slide */
 
 footer {
-    height: 10%;
+    height: 100px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 30vh;
     background-color: black;
     opacity: 0.8;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
 }
