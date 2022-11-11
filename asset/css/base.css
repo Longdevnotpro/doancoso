@@ -65,7 +65,7 @@
 .rightHeader {
     width: 25%;
     text-align: end;
-    display: none;
+    /* display: none; */
 }
 
 .rightHeader .btn-login {
@@ -90,7 +90,7 @@
 
 .header-login {
     display: flex;
-    /* display: none; */
+    display: none;
     width: 13%;
     list-style: none;
     height: 100%;
