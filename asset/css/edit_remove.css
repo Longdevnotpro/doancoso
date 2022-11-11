@@ -80,3 +80,22 @@
     border: 2px solid #333;
     border-radius: 15px;
 }
+
+.content2 .history textarea{
+    text-align: center;
+    width: 70%;
+    margin-top: 20px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+
+.content2 .history input{
+    height: 30px;
+    width:70%;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
