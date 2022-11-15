@@ -1,261 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../asset/css/search-nav-bar.css" />
-    <link rel="icon" type="image/x-icon" href="../../asset/img/logo.png" />
-    <script
-      src="https://kit.fontawesome.com/50a3c67631.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="../../asset/css/base.css" />
-    <title>Search</title>
-  </head>
-  <body>
-    <div class="wrap">
-      <!-- Header -->
-      <div class="header">
-        <div class="leftHeader">
-          <a class="domain" href="">
-            <span>LuatRung.vn</span>
-          </a>
-          <a class="headerItem" href="../html/home.html">Trang chủ</a>
-          <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
-          <a class="headerItem" href="../html/new-para.html">Văn bản mới</a>
-          <a class="headerItem" href="../html/edit_remove.html"
-            >Chỉnh sửa điều khoản</a
-          >
-        </div>
 
-        <div class="rightHeader">
-          <a class="btn-login" href="../html/login.html">Đăng nhập</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../asset/css/search-nav-bar.css" />
+  <link rel="icon" type="image/x-icon" href="../../asset/img/logo.png" />
+  <script src="https://kit.fontawesome.com/50a3c67631.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../asset/css/base.css" />
+  <title>Search</title>
+</head>
 
-          <a class="btn-register" href="../html/register.html">Đăng kí</a>
-        </div>
+<body>
+  <div class="wrap">
+    <!-- Header -->
+    <div class="header">
+      <div class="leftHeader">
+        <a class="domain" href="">
+          <span>LuatRung.vn</span>
+        </a>
+        <a class="headerItem" href="../html/home.html">Trang chủ</a>
+        <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
+        <a class="headerItem" href="../html/new-para.html">Văn bản mới</a>
+        <a class="headerItem" href="../html/edit_remove.html">Chỉnh sửa điều khoản</a>
       </div>
 
-      <!-- Body -->
-      <div class="container">
-        <div class="search-content">
-          <div class="input-search-content">
-            <input type="text" placeholder="Nhập nội dung tìm kiếm" />
-            <div class="btn-search">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </div>
+      <div class="rightHeader">
+        <a class="btn-login" href="../html/login.html">Đăng nhập</a>
 
-          <div class="btn">
-            <select id="chương" name="Chương">
-              <option value="0">Chọn Chương:</option>
-              <option value="1">Chương 1</option>
-              <option value="2">Chương 2</option>
-              <option value="3">Chương 3</option>
-            </select>
-            <select id="điều" name="Điều">
-              <option value="">Chọn Điều:</option>
-              <option value="1">Điều 1</option>
-              <option value="2">Điều 2</option>
-              <option value="3">Điều 3</option>
-            </select>
-            <select id="khoản" name="Khoản">
-              <option value="0">Chọn Khoản:</option>
-              <option value="1">Khoản 1</option>
-              <option value="2">Khoản 2</option>
-              <option value="3">Khoản 3</option>
-            </select>
-            <select id="mục" name="Mục">
-              <option value="0">Chọn Mục:</option>
-              <option value="1">Mục 1</option>
-              <option value="2">Mục 2</option>
-              <option value="3">Mục 3</option>
-            </select>
-            <select id="mức phạt" name="Mức Phạt">
-              <option value="0">Chọn Mức Phạt:</option>
-              <option value="1">Mức Phạt 1</option>
-              <option value="2">Mức Phạt 2</option>
-              <option value="3">Mức Phạt 3</option>
-            </select>
-          </div>
-        </div>
-        <div class="container-content">
-          <div class="show-text">
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Bao ve rung</span>
-                <ul>
-                  <li>Chuong:</li>
-                  <li>Khoan:</li>
-                  <li>Muc:</li>
-                  <li>Dieu:</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i
-                    class="fa-solid fa-arrows-to-circle"
-                    style="margin-left: 5%"
-                  ></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Bao ve rung</span>
-                <ul>
-                  <li>Chuong:</li>
-                  <li>Khoan:</li>
-                  <li>Muc:</li>
-                  <li>Dieu:</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i
-                    class="fa-solid fa-arrows-to-circle"
-                    style="margin-left: 5%"
-                  ></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Bao ve rung</span>
-                <ul>
-                  <li>Chuong:</li>
-                  <li>Khoan:</li>
-                  <li>Muc:</li>
-                  <li>Dieu:</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i
-                    class="fa-solid fa-arrows-to-circle"
-                    style="margin-left: 5%"
-                  ></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Bao ve rung</span>
-                <ul>
-                  <li>Chuong:</li>
-                  <li>Khoan:</li>
-                  <li>Muc:</li>
-                  <li>Dieu:</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i
-                    class="fa-solid fa-arrows-to-circle"
-                    style="margin-left: 5%"
-                  ></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Bao ve rung</span>
-                <ul>
-                  <li>Chuong:</li>
-                  <li>Khoan:</li>
-                  <li>Muc:</li>
-                  <li>Dieu:</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i
-                    class="fa-solid fa-arrows-to-circle"
-                    style="margin-left: 5%"
-                  ></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Bao ve rung</span>
-                <ul>
-                  <li>Chuong:</li>
-                  <li>Khoan:</li>
-                  <li>Muc:</li>
-                  <li>Dieu:</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i
-                    class="fa-solid fa-arrows-to-circle"
-                    style="margin-left: 5%"
-                  ></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="search-history">Lịch sử tìm kiếm</div>
-        </div>
+        <a class="btn-register" href="../html/register.html">Đăng kí</a>
       </div>
-
-      <!-- Footer -->
-      <footer>Designed by the group</footer>
     </div>
-  </body>
+
+    <!-- Body -->
+    <div class="container">
+      <div class="search-content">
+        <div class="input-search-content">
+          <input type="text" placeholder="Nhập nội dung tìm kiếm" />
+          <div class="btn-search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div class="btn">
+          <select id="chương" name="Chương">
+            <option value="0">Chọn Chương:</option>
+            <option value="1">Chương 1</option>
+            <option value="2">Chương 2</option>
+            <option value="3">Chương 3</option>
+          </select>
+          <select id="điều" name="Điều">
+            <option value="">Chọn Điều:</option>
+            <option value="1">Điều 1</option>
+            <option value="2">Điều 2</option>
+            <option value="3">Điều 3</option>
+          </select>
+          <select id="khoản" name="Khoản">
+            <option value="0">Chọn Khoản:</option>
+            <option value="1">Khoản 1</option>
+            <option value="2">Khoản 2</option>
+            <option value="3">Khoản 3</option>
+          </select>
+          <select id="mục" name="Mục">
+            <option value="0">Chọn Mục:</option>
+            <option value="1">Mục 1</option>
+            <option value="2">Mục 2</option>
+            <option value="3">Mục 3</option>
+          </select>
+          <select id="mức phạt" name="Mức Phạt">
+            <option value="0">Chọn Mức Phạt:</option>
+            <option value="1">Mức Phạt 1</option>
+            <option value="2">Mức Phạt 2</option>
+            <option value="3">Mức Phạt 3</option>
+          </select>
+        </div>
+      </div>
+      <div class="container-content">
+        <div class="show-text">
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Nghị định này quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu
+                quả đối với hành vi vi phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính
+                trong lĩnh vực Lâm nghiệp.</span>
+              <ul>
+                <li>Chuong:1</li>
+                <li>Khoan:1</li>
+                <li>Muc:</li>
+                <li>Dieu:1</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Các hành vi vi phạm hành chính khác trong lĩnh vực Lâm nghiệp không được quy định tại Nghị định này
+                thì áp dụng quy định tại các nghị định của Chính phủ về xử phạt vi phạm hành chính trong lĩnh vực quản
+                lý nhà nước khác có liên quan để xử phạt</span>
+              <ul>
+                <li>Chuong:1</li>
+                <li>Khoan:2</li>
+                <li>Muc:</li>
+                <li>Dieu:1</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Nghị định này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài có hành vi
+                vi phạm hành chính trong lĩnh vực Lâm nghiệp trên lãnh thổ Việt Nam; người có thẩm quyền lập biên bản và
+                thẩm quyền xử phạt vi phạm hành chính theo quy định tại Nghị định này.</span>
+              <ul>
+                <li>Chuong:1</li>
+                <li>Khoan:1</li>
+                <li>Muc:</li>
+                <li>Dieu:2</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Tổ chức quy định tại khoản 1 Điều này gồm:
+                a) Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao;
+                b) Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại diện của
+                doanh nghiệp nước ngoài hoạt động tại Việt Nam;
+                c) Hợp tác xã, liên hiệp hợp tác xã;
+                d) Tổ chức, đơn vị sự nghiệp công lập;
+                đ) Tổ chức nghề nghiệp hoạt động trong lĩnh vực Lâm nghiệp.
+              </span>
+              <ul>
+                <li>Chuong:1</li>
+                <li>Khoan:2</li>
+                <li>Muc:</li>
+                <li>Dieu:2</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Kiểm lâm viên là công chức thuộc các ngạch kiểm lâm, biên chế trong cơ quan kiểm lâm.</span>
+              <ul>
+                <li>Chuong:2</li>
+                <li>Khoan:1</li>
+                <li>Muc:</li>
+                <li>Dieu:3</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Bộ phận cơ thể không thể tách rời sự sống là những bộ phận thực hiện các chức năng chuyên biệt của
+                cơ thể động vật, ngay khi tách rời những bộ phận này khỏi cơ thể sống của động vật thì động vật đó chết
+                (ví dụ: đầu, tim, bộ da, bộ xương, buồng gan...).</span>
+              <ul>
+                <li>Chuong:2</li>
+                <li>Khoan:2</li>
+                <li>Muc:</li>
+                <li>Dieu:3</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Sản phẩm của động vật rừng là các loại sản phẩm có nguồn gốc từ động vật rừng như: thịt, trứng, sữa,
+                tinh dịch, phôi động vật, huyết, dịch mật, nội tạng, da, lông, xương, sừng, ngà, chân, móng...; vật phẩm
+                có thành phần từ các bộ phận của động vật rừng đã qua chế biến như: cao nấu từ xương động vật, túi xách,
+                ví, dây thắt lưng làm từ da động vật rừng.</span>
+              <ul>
+                <li>Chuong:2</li>
+                <li>Khoan:3</li>
+                <li>Muc:</li>
+                <li>Dieu:3</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+          <div class="container-showpara">
+            <div class="content-showpara">
+              <span>Rừng khoanh nuôi tái sinh thuộc rừng chưa có trữ lượng bao gồm: rừng tái sinh tự nhiên hoặc rừng
+                khoanh nuôi xúc tiến tái sinh tự nhiên có trữ lượng cây đứng dưới 10 m3/ha.</span>
+              <ul>
+                <li>Chuong:2</li>
+                <li>Khoan:4</li>
+                <li>Muc:</li>
+                <li>Dieu:3</li>
+              </ul>
+            </div>
+            <div class="content-function">
+              <div class="function-box">
+                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
+                <button style="margin-right: 20%">Noi dung</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-download"></i>
+                <button style="margin-right: 20%">Download</button>
+              </div>
+              <div class="function-box">
+                <i class="fa-solid fa-align-justify"></i>
+                <button>Vb lien quan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-history">Lịch sử tìm kiếm</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>Designed by the group</footer>
+  </div>
+</body>
+
 </html>
