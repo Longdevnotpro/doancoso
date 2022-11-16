@@ -106,3 +106,11 @@
     /* border: 1px solid #333; */
     border: none;
 }
+
+.content2 .history input:focus {
+    outline: none;
+}
+
+.content2 .history textarea:focus{
+    outline: none;
+}
