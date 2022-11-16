@@ -80,6 +80,7 @@
 .content2 .history {
     width: 30%;
     height: 500px;
+    height: 100%;
     background-color: var(--content-color);
     text-align: center;
     margin-left: 130px;
