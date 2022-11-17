@@ -5,23 +5,21 @@
 }
 
 :root {
-    --header-color: #32325d;
+    --header-color: #2F5D62;
     --wrap-color: white;
-    --slide-color: #1b3867;
-    --content-color: #eaeaea;
-    --btn-color: rgb(184, 147, 147);
+    --slide-color: #5E8B7E;
+    --content-color: #EAEAEA;
+    --btn-color: rgb(255, 255, 255);
 }
 
 .wrap {
-    /* width: 5000px; */
-    /* height: 5000px; */
+    width: 3000px;
+    /* height: 6000px; */
     max-width: 100%;
     max-height: 100%;
-    background-color: var(--wrap-color);
-    /* overflow: hidden; */
-
 }
 
+/*  Header  */
 .header {
     top: 0;
     position: fixed;
@@ -33,6 +31,7 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .header a {
@@ -65,7 +64,7 @@
 .rightHeader {
     width: 25%;
     text-align: end;
-    /* display: none; */
+    display: none;
 }
 
 .rightHeader .btn-login {
@@ -90,7 +89,7 @@
 
 .header-login {
     display: flex;
-    display: none;
+    /* display: none; */
     width: 13%;
     list-style: none;
     height: 100%;
@@ -138,8 +137,64 @@
     color: #fff;
 }
 
+/*  container */
 .container {
-    margin-top: 100px;
+    padding-top: 100px;
+    background-color: var(--wrap-color);
+}
+
+.container-showpara {
+    max-height: 100%;
+    width: 100%;
+    background-color: var(--content-color);
+    padding-bottom: 4%;
+    margin-bottom: 2.5%;
+    /* border: 2px solid #333; */
+    border-radius: 15px;
+    position: relative;
+}
+
+.content-showpara {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-showpara>span {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.content-showpara>ul {
+    list-style: none;
+    margin-top: 15px;
+    padding-right: 50px;
+
+}
+
+.content-function {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-top: 9px;
+    justify-content: space-around;
+}
+
+
+.function-box {
+    display: flex;
+    width: 16.5%;
+    background-color: var(--btn-color);
+    justify-content: center;
+    padding: 2px 0;
+    border-radius: 10px;
+
+}
+
+.function-box>button {
+    padding: 1px 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 
 /* Start Slide */
@@ -179,11 +234,12 @@
 /* End Slide */
 
 footer {
-    height: 100px;
+    height: 70px;
     width: 100%;
-    margin-top: 30vh;
+    padding: 50px 0;
     background-color: black;
-    opacity: 0.8;
-    /* position: fixed; */
+    color: white;
+    opacity: 0.85;
+    text-align: center;
     bottom: 0;
 }
