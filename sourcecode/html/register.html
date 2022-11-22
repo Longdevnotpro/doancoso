@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="../../asset/img/logo.png"> 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 </head>
 
 <body>
@@ -17,14 +18,14 @@
             <img src="../../asset/img/logo.png">
         </div>
         <div class="login-content">
-            <form action="index.html">
+            <form>
                 <h2 class="title">Register</h2>
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <input type="text" class="input" placeholder="Username">
+                        <input type="text" class="input" placeholder="Username" name="username">
                     </div>
                 </div>
                 <div class="input-div email">
@@ -32,7 +33,7 @@
                         <i class="fa fa-solid fa-envelope"></i>
                     </div>
                     <div class="div">
-                        <input type="email" class="input" placeholder="Email Address">
+                        <input type="email" class="input" placeholder="Email Address" name="email">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -40,7 +41,7 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <input type="password" class="input" placeholder="Password">
+                        <input type="password" class="input" placeholder="Password" name="password"> 
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -48,15 +49,16 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <input type="password" class="input" placeholder="Repeat Password">
+                        <input type="password" class="input" placeholder="Repeat Password" name="repassword">
                     </div>
                 </div>
                 <p>Do you have an account? <a href="../html/login.html">Sign in</a></p>
-                <input type="submit" class="btn" value="Register">
+                <button class="btn" id="register-btn">Register</button>
             </form>
         </div>
     </div>
-    <script type="text/javascript" src="./js/main.js"></script>
+    
+    <script src="../js/register.js"></script>
 </body>
 
 </html>
