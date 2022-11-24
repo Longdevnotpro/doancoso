@@ -69,6 +69,23 @@
       "password": "123456",
       "type": 1,
       "id": 11
+    },
+    {
+      "username": "adin",
+      "email": "long1909@gmail.com",
+      "password": "123456",
+      "type": 1,
+      "id": 12
+    }
+  ],
+  "content": [
+    {
+      "id": 1
+    }
+  ],
+  "notlogin": [
+    {
+      "type": 0
     }
   ]
 }

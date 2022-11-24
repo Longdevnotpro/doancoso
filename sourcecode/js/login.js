@@ -19,7 +19,6 @@ function HandleLogin(data) {
   var checklogin = data.some(value => value.email === email && value.password === password)
   
  if(checklogin){
-  alert('Đăng nhập thành công')
   window.location = 'home.html'
  }
  else{
