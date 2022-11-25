@@ -26,7 +26,6 @@ function HandleHomeShow(data) {
       <a class="headerItem" href="../html/home.html">Trang chủ</a>
       <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
       <a class="headerItem" href="../html/new-para.html">Văn bản mới</a>
-      <a class="headerItem" href="../html/edit_remove.html">Chỉnh sửa điều khoản</a>
     </div>
 
 
