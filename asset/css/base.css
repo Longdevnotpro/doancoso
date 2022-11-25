@@ -51,14 +51,24 @@
 }
 
 .leftHeader>.headerItem {
-    padding-right: 30px;
-    transition: 0.3s all;
+    margin: 15px;
+    padding: 10px 0;
+    position: relative;
 }
 
-.leftHeader .headerItem:hover {
-    background-color: #2980b9;
-    padding: 20px;
-    border-radius: 10px;
+.leftHeader>.headerItem::after{
+    content: "";
+    height: 6px;
+    width: 0%;
+    background: linear-gradient(to right, rgba(76, 67, 145, 0.7), violet);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.leftHeader>.headerItem:hover::after{
+    width: 100%;
 }
 
 .rightHeader {
