@@ -33,6 +33,7 @@ body {
     padding-right: 30px;
 }
 
+
 .login-content {
     width: 50%;
     display: flex;
@@ -41,8 +42,10 @@ body {
     text-align: center;
 }
 
-form {
-    width: 360px;
+
+
+.form {
+    width: 350px;
 }
 
 .login-content img {
