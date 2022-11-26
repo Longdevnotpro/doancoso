@@ -28,29 +28,19 @@
 
 
     </div>
+    
     <script>
         dbUser = 'http://localhost:3000/notlogin'
 
 function start() {
-    GetUser(HandleHomeShow)
+   HandleHomeShow()
 }
 
-function GetUser(callback) {
-    fetch(dbUser)
-      .then(function (res) {
-        return res.json();
-      })
-      .then(callback)
-}
 
-function HandleHomeShow(data) {
-    var checktype = data.some(value => value.type === 1 || value.type ===2 )
+function HandleHomeShow() {
+    
 
     var show = document.querySelector('.wrap')
-    if(checktype){
-        
-    }
-    else{
         show.innerHTML = ` <div class="header">
         <div class="leftHeader">
           <a class="domain" href="">
@@ -80,32 +70,7 @@ function HandleHomeShow(data) {
         <div class="container-content">
           <div class="content-1">
             <div class="container-showpara">
-              <div class="content-showpara">
-                <span>Nghị định này quy định về hành vi vi phạm, hình thức xử phạt,
-                  mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi
-                  phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản
-                  vi phạm hành chính trong lĩnh vực Lâm nghiệp.</span>
-                <ul>
-                  <li>Chuong:1</li>
-                  <li>Khoan:1</li>
-                  <li>Muc:</li>
-                  <li>Dieu:1</li>
-                </ul>
-              </div>
-              <div class="content-function">
-                <div class="function-box">
-                  <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
-                  <button style="margin-right: 20%">Noi dung</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-download"></i>
-                  <button style="margin-right: 20%">Download</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-align-justify"></i>
-                  <button>Vb lien quan</button>
-                </div>
-              </div>
+              
             </div>
     
           </div>
@@ -142,8 +107,9 @@ function HandleHomeShow(data) {
 
     }
 
-}
+
     </script>
+    <script src="../js/render.js"></script>
 </body>
 
 </html>

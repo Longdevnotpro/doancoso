@@ -85,11 +85,58 @@
       "id": 13
     }
   ],
+
+
   "content": [
     {
-      "id": 1
+      "id": 1,
+      "summarykey":"QUY ĐỊNH CHUNG",
+      "content":"Nghị định này quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực Lâm nghiệp.",
+      "chuong":"1",
+      "khoan":"1",
+      "dieu":"1",
+      "muc":"none",
+      "priceabove":"",
+      "pricebelow":"30000"
+    },
+    {
+      "id": 2,
+      "summarykey":"QUY ĐỊNH CHUNG",
+      "content":"Các hành vi vi phạm hành chính khác trong lĩnh vực Lâm nghiệp không được quy định tại Nghị định này thì áp dụng quy định tại các nghị định của Chính phủ về xử phạt vi phạm hành chính trong lĩnh vực quản lý nhà nước khác có liên quan để xử phạt",
+      "chuong":"1",
+      "khoan":"2",
+      "dieu":"1",
+      "muc":"none",
+      "priceabove":"none",
+      "pricebelow":"none"
+    },
+    {
+      "id": 3,
+      "summarykey":"QUY ĐỊNH CHUNG",
+      "content":"Nghị định này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài có hành vi vi phạm hành chính trong lĩnh vực Lâm nghiệp trên lãnh thổ Việt Nam; người có thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành chính theo quy định tại Nghị định này.",
+      "chuong":"1",
+      "khoan":"1",
+      "dieu":"2",
+      "muc":"none",
+      "priceabove":"none",
+      "pricebelow":"none"
+    },
+    {
+      "id": 4,
+      "summarykey":"QUY ĐỊNH CHUNG",
+      "content":"Tổ chức quy định tại khoản 1 Điều này gồm: a) Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao; b) Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam; c) Hợp tác xã, liên hiệp hợp tác xã; d) Tổ chức, đơn vị sự nghiệp công lập; đ) Tổ chức nghề nghiệp hoạt động trong lĩnh vực Lâm nghiệp.",
+      "chuong":"",
+      "khoan":"",
+      "dieu":"",
+      "muc":"",
+      "priceabove":"",
+      "pricebelow":""
     }
   ],
+
+
+
+
   "notlogin": [
     {
       "type": 0
