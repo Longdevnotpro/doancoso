@@ -91,7 +91,7 @@ body{
 	top: 50%;
 	transform: translateY(-50%);
 	color: #333;
-	font-size: 18px;
+	font-size: 20px;
 	transition: .3s;
 }
 
@@ -118,7 +118,7 @@ body{
 }
 
 .input-div.focus > div > h5{
-	top: -5px;
+	top: -10px;
 	font-size: 15px;
 }
 
@@ -188,6 +188,10 @@ p:hover{
 }
 .btn:hover{
 	background-position: right;
+}
+
+.show-pw{
+	text-align: end;
 }
 
 @media (max-width: 1000px){

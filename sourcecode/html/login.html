@@ -29,11 +29,11 @@
               <i class="fas fa-user"></i>
             </div>
             <div class="div">
+              <h5>Email</h5>
               <input
                 type="text"
                 class="input username"
                 name="email"
-                placeholder="Email"
               />
             </div>
           </div>
@@ -42,11 +42,11 @@
               <i class="fas fa-lock"></i>
             </div>
             <div class="div">
+              <h5>Password</h5>
               <input
                 type="password"
                 class="input password"
                 name="password"
-                placeholder="Password"
                 id="pwInput"
               />
             </div>
@@ -62,7 +62,9 @@
             <i class="fa-solid fa-eye-slash"></i>
           </button> -->
 
-          <input type="checkbox" onclick="myFunction()" />Show Password
+          <div class="show-pw">
+            <input type="checkbox" onclick="myFunction()"/> Show Password
+          </div>
           <button class="btn" id="btn-login" onclick="login()">Login</button>
           <!-- <a class="forgot-password" href="#">Forgot Password?</a> -->
 
@@ -74,6 +76,7 @@
         </div>
       </div>
     </div>
+    <script src="../js/login-register.js"></script>
     <script src="../js/login.js"></script>
     <script>
       function myFunction() {
