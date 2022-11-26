@@ -90,60 +90,79 @@
       "password": "123456",
       "type": 1,
       "id": 14
+    },
+    {
+      "username": "long",
+      "email": "long19092k3@gmail.com",
+      "password": "123456",
+      "type": 1,
+      "id": 15
+    },
+    {
+      "username": "Longhoang",
+      "email": "long19092k4@gmail.com",
+      "password": "1234567",
+      "type": 1,
+      "id": 16
     }
   ],
-
-
   "content": [
     {
       "id": 1,
-      "summarykey":"QUY ĐỊNH CHUNG",
-      "content":"Nghị định này quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực Lâm nghiệp.",
-      "chuong":"1",
-      "khoan":"1",
-      "dieu":"1",
-      "muc":"none",
-      "priceabove":"",
-      "pricebelow":"30000"
+      "summarykey": "QUY ĐỊNH CHUNG",
+      "content": "Nghị định này quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính trong lĩnh vực Lâm nghiệp.",
+      "chuong": "1",
+      "khoan": "none",
+      "dieu": "1,2,3,4,5,6",
+      "muc": "none",
+      "priceabove": "",
+      "pricebelow": ""
     },
     {
       "id": 2,
-      "summarykey":"QUY ĐỊNH CHUNG",
-      "content":"Các hành vi vi phạm hành chính khác trong lĩnh vực Lâm nghiệp không được quy định tại Nghị định này thì áp dụng quy định tại các nghị định của Chính phủ về xử phạt vi phạm hành chính trong lĩnh vực quản lý nhà nước khác có liên quan để xử phạt",
-      "chuong":"1",
-      "khoan":"2",
-      "dieu":"1",
-      "muc":"none",
-      "priceabove":"none",
-      "pricebelow":"none"
+      "summarykey": "HÀNH VI VI PHẠM HÀNH CHÍNH, HÌNH THỨC XỬ PHẠT VÀ BIỆN PHÁP KHẮC PHỤC HẬU QUẢ",
+      "content": "Bộ phận cơ thể không thể tách rời sự sống là những bộ phận thực hiện các chức năng chuyên biệt của cơ thể động vật, ngay khi tách rời những bộ phận này khỏi cơ thể sống của động vật thì động vật đó chết (ví dụ: đầu, tim, bộ da, bộ xương, buồng gan...).",
+      "chuong": "2",
+      "khoan": "1",
+      "dieu": "3",
+      "muc": "none",
+      "priceabove": "none",
+      "pricebelow": "none"
     },
     {
       "id": 3,
-      "summarykey":"QUY ĐỊNH CHUNG",
-      "content":"Nghị định này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài có hành vi vi phạm hành chính trong lĩnh vực Lâm nghiệp trên lãnh thổ Việt Nam; người có thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành chính theo quy định tại Nghị định này.",
-      "chuong":"1",
-      "khoan":"1",
-      "dieu":"2",
-      "muc":"none",
-      "priceabove":"none",
-      "pricebelow":"none"
+      "summarykey": "HÀNH VI VI PHẠM HÀNH CHÍNH, HÌNH THỨC XỬ PHẠT VÀ BIỆN PHÁP KHẮC PHỤC HẬU QUẢ",
+      "content": "Bộ phận cơ thể không thể tách rời sự sống là những bộ phận thực hiện các chức năng chuyên biệt của cơ thể động vật, ngay khi tách rời những bộ phận này khỏi cơ thể sống của động vật thì động vật đó chết (ví dụ: đầu, tim, bộ da, bộ xương, buồng gan...).",
+      "chuong": "2",
+      "khoan": "2",
+      "dieu": "3",
+      "muc": "none",
+      "priceabove": "none",
+      "pricebelow": "none"
     },
     {
       "id": 4,
-      "summarykey":"QUY ĐỊNH CHUNG",
-      "content":"Tổ chức quy định tại khoản 1 Điều này gồm: a) Cơ quan nhà nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ quản lý nhà nước được giao; b) Doanh nghiệp được thành lập và hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam; c) Hợp tác xã, liên hiệp hợp tác xã; d) Tổ chức, đơn vị sự nghiệp công lập; đ) Tổ chức nghề nghiệp hoạt động trong lĩnh vực Lâm nghiệp.",
-      "chuong":"",
-      "khoan":"",
-      "dieu":"",
-      "muc":"",
-      "priceabove":"",
-      "pricebelow":""
+      "summarykey": "HÀNH VI VI PHẠM HÀNH CHÍNH, HÌNH THỨC XỬ PHẠT VÀ BIỆN PHÁP KHẮC PHỤC HẬU QUẢ",
+      "content": "Sản phẩm của động vật rừng là các loại sản phẩm có nguồn gốc từ động vật rừng như: thịt, trứng, sữa, tinh dịch, phôi động vật, huyết, dịch mật, nội tạng, da, lông, xương, sừng, ngà, chân, móng...; vật phẩm có thành phần từ các bộ phận của động vật rừng đã qua chế biến như: cao nấu từ xương động vật, túi xách, ví, dây thắt lưng làm từ da động vật rừng.",
+      "chuong": "2",
+      "khoan": "3",
+      "dieu": "3",
+      "muc": "none",
+      "priceabove": "none",
+      "pricebelow": "none"
+    },
+    {
+      "id": 5,
+      "summarykey": "HÀNH VI VI PHẠM HÀNH CHÍNH, HÌNH THỨC XỬ PHẠT VÀ BIỆN PHÁP KHẮC PHỤC HẬU QUẢ",
+      "content": "Rừng khoanh nuôi tái sinh thuộc rừng chưa có trữ lượng bao gồm: rừng tái sinh tự nhiên hoặc rừng khoanh nuôi xúc tiến tái sinh tự nhiên có trữ lượng cây đứng dưới 10 m3/ha.",
+      "chuong": "2",
+      "khoan": "4",
+      "dieu": "3",
+      "muc": "none",
+      "priceabove": "none",
+      "pricebelow": "none"
     }
   ],
-
-
-
-
   "notlogin": [
     {
       "type": 0

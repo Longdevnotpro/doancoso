@@ -1,7 +1,7 @@
 .container-content{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 25px 20px;
 }
 
@@ -23,6 +23,7 @@
     border-radius: 15px;
     text-align: center;
     font-weight: 700;
+    padding: 10px
 }
 
 .content-2-slide{
@@ -40,4 +41,5 @@
 .content-2-slide > span{
     width: 50%;
     margin-left: 5%;
+    
 }

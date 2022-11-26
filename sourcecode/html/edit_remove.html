@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../asset/css/base.css" />
-    <link rel="stylesheet" href="../../asset/css/edit_remove.css" />
-    <link rel="icon" type="image/x-icon" href="../../asset/img/logo.png" />
-    <script
-      src="https://kit.fontawesome.com/50a3c67631.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Edit</title>
-  </head>
 
-  <body>
-    <div class="wrap">
-      <!-- Header -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../asset/css/base.css" />
+  <link rel="stylesheet" href="../../asset/css/edit_remove.css" />
+  <link rel="icon" type="image/x-icon" href="../../asset/img/logo.png" />
+  <script src="https://kit.fontawesome.com/50a3c67631.js" crossorigin="anonymous"></script>
+  <title>Edit</title>
+</head>
+
+<body onload="start()">
+  <div class="wrap">
+
+  </div>
+
+  <!-- render code by js -->
+
+  <script>
+    function start() {
+      HandleHomeShow()
+    }
+
+
+    function HandleHomeShow() {
+
+
+      var show = document.querySelector('.wrap')
+      show.innerHTML = `<!-- Header -->
       <div class="header">
         <div class="leftHeader">
           <a class="domain" href="">
@@ -78,230 +91,12 @@
           </div>
         </div>
         <div class="content2">
-          <div class="show-text">
+          <div class="show-text" id="content-1">
             <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Nghị định này quy định về hành vi vi phạm, hình thức xử phạt,
-                  mức xử phạt, biện pháp khắc phục hậu quả đối với hành vi vi
-                  phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản
-                  vi phạm hành chính trong lĩnh vực Lâm nghiệp.</span
-                >
-                <ul>
-                  <li>Chuong:1</li>
-                  <li>Khoan:1</li>
-                  <li>Muc:</li>
-                  <li>Dieu:1</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Các hành vi vi phạm hành chính khác trong lĩnh vực Lâm nghiệp
-                  không được quy định tại Nghị định này thì áp dụng quy định tại
-                  các nghị định của Chính phủ về xử phạt vi phạm hành chính
-                  trong lĩnh vực quản lý nhà nước khác có liên quan để xử
-                  phạt</span
-                >
-                <ul>
-                  <li>Chuong:1</li>
-                  <li>Khoan:2</li>
-                  <li>Muc:</li>
-                  <li>Dieu:1</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Nghị định này áp dụng đối với tổ chức, cá nhân trong nước và
-                  tổ chức, cá nhân nước ngoài có hành vi vi phạm hành chính
-                  trong lĩnh vực Lâm nghiệp trên lãnh thổ Việt Nam; người có
-                  thẩm quyền lập biên bản và thẩm quyền xử phạt vi phạm hành
-                  chính theo quy định tại Nghị định này.</span
-                >
-                <ul>
-                  <li>Chuong:1</li>
-                  <li>Khoan:1</li>
-                  <li>Muc:</li>
-                  <li>Dieu:2</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Tổ chức quy định tại khoản 1 Điều này gồm: a) Cơ quan nhà
-                  nước có hành vi vi phạm mà hành vi đó không thuộc nhiệm vụ
-                  quản lý nhà nước được giao; b) Doanh nghiệp được thành lập và
-                  hoạt động theo pháp luật Việt Nam; chi nhánh, văn phòng đại
-                  diện của doanh nghiệp nước ngoài hoạt động tại Việt Nam; c)
-                  Hợp tác xã, liên hiệp hợp tác xã; d) Tổ chức, đơn vị sự nghiệp
-                  công lập; đ) Tổ chức nghề nghiệp hoạt động trong lĩnh vực Lâm
-                  nghiệp.
-                </span>
-                <ul>
-                  <li>Chuong:1</li>
-                  <li>Khoan:2</li>
-                  <li>Muc:</li>
-                  <li>Dieu:2</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Kiểm lâm viên là công chức thuộc các ngạch kiểm lâm, biên chế
-                  trong cơ quan kiểm lâm.</span
-                >
-                <ul>
-                  <li>Chuong:2</li>
-                  <li>Khoan:1</li>
-                  <li>Muc:</li>
-                  <li>Dieu:3</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Bộ phận cơ thể không thể tách rời sự sống là những bộ phận
-                  thực hiện các chức năng chuyên biệt của cơ thể động vật, ngay
-                  khi tách rời những bộ phận này khỏi cơ thể sống của động vật
-                  thì động vật đó chết (ví dụ: đầu, tim, bộ da, bộ xương, buồng
-                  gan...).</span
-                >
-                <ul>
-                  <li>Chuong:2</li>
-                  <li>Khoan:2</li>
-                  <li>Muc:</li>
-                  <li>Dieu:3</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Sản phẩm của động vật rừng là các loại sản phẩm có nguồn gốc
-                  từ động vật rừng như: thịt, trứng, sữa, tinh dịch, phôi động
-                  vật, huyết, dịch mật, nội tạng, da, lông, xương, sừng, ngà,
-                  chân, móng...; vật phẩm có thành phần từ các bộ phận của động
-                  vật rừng đã qua chế biến như: cao nấu từ xương động vật, túi
-                  xách, ví, dây thắt lưng làm từ da động vật rừng.</span
-                >
-                <ul>
-                  <li>Chuong:2</li>
-                  <li>Khoan:3</li>
-                  <li>Muc:</li>
-                  <li>Dieu:3</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Xóa</button>
-                </div>
-              </div>
-            </div>
-            <div class="container-showpara">
-              <div class="content-showpara">
-                <span
-                  >Rừng khoanh nuôi tái sinh thuộc rừng chưa có trữ lượng bao
-                  gồm: rừng tái sinh tự nhiên hoặc rừng khoanh nuôi xúc tiến tái
-                  sinh tự nhiên có trữ lượng cây đứng dưới 10 m3/ha.</span
-                >
-                <ul>
-                  <li>Chuong:2</li>
-                  <li>Khoan:4</li>
-                  <li>Muc:</li>
-                  <li>Dieu:3</li>
-                </ul>
-              </div>
-              <div class="content-function edit-delete">
-                
-                <div class="function-box">
-                  <i class="fa-solid fa-pen-to-square"></i>
-                    <button>Chỉnh Sửa</button>
-                </div>
-                <div class="function-box">
-                  <i class="fa-solid fa-trash"></i>
-                  <button>Delete</button>
-                </div>
-              </div>
+              
             </div>
           </div>
+        
 
           <div class="history">
             <textarea
@@ -312,17 +107,26 @@
               placeholder="Nhập vào nội dung...."
               style="max-width: 100%;"
             ></textarea>
-            <input type="text" name="" required placeholder="Nhập vào Chương" />
-            <input type="text" name="" required placeholder="Nhập vào Điều" />
-            <input type="text" name="" required placeholder="Nhập vào Khoản" />
-            <input type="text" name="" required placeholder="Nhập vào Mục" />
-            <input type="text" name="" required placeholder="Nhập vào Mức Phạt" />
-            <input style="background-color: rgb(191, 180, 180); cursor: pointer;" type="button" value="Thêm Văn bản" />
+            <input type="text" name="summaryKey" required placeholder="Nhập vào summaryKey" />
+            <input type="text" name="chuong" required placeholder="Nhập vào Chương" />
+            <input type="text" name="dieu" required placeholder="Nhập vào Điều" />
+            <input type="text" name="muc" required placeholder="Nhập vào Mục" />
+            <input type="text" name="khoan" required placeholder="Nhập vào Khoản" />
+            <input type="text" name="priceabove" required placeholder="Nhập vào Mức Phạt trên" />
+            <input type="text" name="pricebelow" required placeholder="Nhập vào Mức Phạt dưới" />
+
+            <input style="background-color: rgb(191, 180, 180); cursor: pointer;" type="button" value="Thêm Văn bản" id="add-btn" />
+            
             <input style="background-color: rgb(191, 180, 180); cursor: pointer; margin-bottom: 15px;" type="button" value="Update Văn bản  " />
           </div>
         </div>
         <!-- Footer -->
-        <footer></footer>    
-    </div>
-  </body>
+        <footer>Designed by nhom 1</footer>  `
+
+    }
+
+  </script>
+  <script src="../js/func_render.js"></script>
+</body>
+
 </html>

@@ -164,6 +164,12 @@
     position: relative;
 }
 
+.container-showpara a{  
+        text-decoration: none;
+        color:black;    
+}
+
+
 .content-showpara {
     display: flex;
     justify-content: space-between;
@@ -172,6 +178,7 @@
 .content-showpara>span {
     padding: 15px;
     font-size: 18px;
+    font-weight: 700;
 }
 
 .content-showpara>ul {
@@ -181,6 +188,9 @@
 
 }
 
+.content-showpara ul li{
+    font-weight: 400;
+}
 .content-function {
     position: absolute;
     display: flex;

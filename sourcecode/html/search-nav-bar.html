@@ -15,12 +15,25 @@
 <body onload="SearchStart()">
   <div class="wrap">
     <!-- Header -->
-    <div class="header">
+    
+  </div>
+
+<!-- Render code with js -->
+<script>
+function SearchStart() {
+  HandleSearchShow()
+}
+
+function HandleSearchShow() {
+  var show = document.querySelector('.wrap');
+
+  show.innerHTML =`
+  <div class="header">
       <div class="leftHeader">
         <a class="domain" href="">
           <span>LuatRung.vn</span>
         </a>
-        <a class="headerItem" href="../html/home.html">Trang chủ</a>
+        <a class="headerItem" href="../html/index.html">Trang chủ</a>
         <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
         <a class="headerItem" href="../html/new-para.html">Văn bản mới</a>
       </div>
@@ -76,33 +89,9 @@
         </div>
       </div>
       <div class="container-content">
-        <div class="show-text">
+        <div class="show-text" id="content-1">
           <div class="container-showpara">
-            <div class="content-showpara">
-              <span>Nghị định này quy định về hành vi vi phạm, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu
-                quả đối với hành vi vi phạm hành chính; thẩm quyền xử phạt và thẩm quyền lập biên bản vi phạm hành chính
-                trong lĩnh vực Lâm nghiệp.</span>
-              <ul>
-                <li>Chuong:1</li>
-                <li>Khoan:1</li>
-                <li>Muc:</li>
-                <li>Dieu:1</li>
-              </ul>
-            </div>
-            <div class="content-function">
-              <div class="function-box">
-                <i class="fa-solid fa-arrows-to-circle" style="margin-left: 5%"></i>
-                <button style="margin-right: 20%">Noi dung</button>
-              </div>
-              <div class="function-box">
-                <i class="fa-solid fa-download"></i>
-                <button style="margin-right: 20%">Download</button>
-              </div>
-              <div class="function-box">
-                <i class="fa-solid fa-align-justify"></i>
-                <button>Vb lien quan</button>
-              </div>
-            </div>
+            
           </div>
           
         </div>
@@ -111,14 +100,11 @@
     </div>
 
     <!-- Footer -->
-    <footer>Designed by the group</footer>
-  </div>
-
-<!-- Render code with js -->
-<script>
-
+    <footer>Designed by the group</footer>`
+}
 
 </script>
+<script src="../js/render.js"></script>
 </body>
 
 </html>
