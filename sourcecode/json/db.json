@@ -83,6 +83,13 @@
       "password": "123456",
       "type": 1,
       "id": 13
+    },
+    {
+      "username": "manh",
+      "email": "manh1@gmail.com",
+      "password": "123456",
+      "type": 1,
+      "id": 15
     }
   ],
 
