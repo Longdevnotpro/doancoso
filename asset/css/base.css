@@ -56,18 +56,18 @@
     position: relative;
 }
 
-.leftHeader>.headerItem::after{
+.leftHeader>.headerItem::after {
     content: "";
-    height: 6px;
+    height: 3px;
     width: 0%;
-    background: linear-gradient(to right, rgba(76, 67, 145, 0.7), violet);
+    background: linear-gradient(to right, rgba(171, 168, 192, 0.7), #2980b9);
     position: absolute;
     bottom: 0;
     left: 0;
     transition: 0.3s ease-in-out;
 }
 
-.leftHeader>.headerItem:hover::after{
+.leftHeader>.headerItem:hover::after {
     width: 100%;
 }
 
@@ -197,7 +197,7 @@
     width: 100%;
     margin-top: 9px;
     justify-content: space-around;
-    
+
 }
 
 
@@ -236,7 +236,7 @@
     }
 
     30% {
-        background-image: url(../../asset/img/rung2.jpeg);
+        background-image: url(../../asset/img/rung2.jpg);
     }
 
     60% {

@@ -92,6 +92,7 @@
       "id": 14
     },
     {
+
       "username": "long",
       "email": "long19092k3@gmail.com",
       "password": "123456",
@@ -104,7 +105,16 @@
       "password": "1234567",
       "type": 1,
       "id": 16
+    },
+    {
+      "username": "manh1",
+      "email": "manh@gmail.com",
+      "password": "123456",
+      "type": 1,
+      "id": 17
+
     }
+    
   ],
   "content": [
     {
