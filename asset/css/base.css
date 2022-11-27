@@ -58,16 +58,20 @@
 
 .leftHeader>.headerItem::after {
     content: "";
-    height: 3px;
-    width: 0%;
-    background: linear-gradient(to right, rgba(171, 168, 192, 0.7), #2980b9);
     position: absolute;
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    background: linear-gradient(to right, rgba(171, 168, 192, 0.7), #2980b9);
     bottom: 0;
     left: 0;
-    transition: 0.3s ease-in-out;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
 }
 
 .leftHeader>.headerItem:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
     width: 100%;
 }
 
