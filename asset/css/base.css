@@ -51,9 +51,10 @@
 }
 
 .leftHeader>.headerItem {
+    position: relative;
     margin: 15px;
     padding: 10px 0;
-    position: relative;
+    top: -29;
 }
 
 .leftHeader>.headerItem::after {
@@ -281,8 +282,10 @@ input:checked+.slider:before {
 /* Start Slide */
 .container-slide {
     width: 100%;
-    height: 30vh;
+    height: 38vh;
     display: flex;
+    /* justify-content: center; */
+    align-items: center;
     background-color: var(--slide-color);
     animation: bg-Slide 10s linear infinite;
     background-repeat: no-repeat;
@@ -313,14 +316,47 @@ input:checked+.slider:before {
 }
 
 /* End Slide */
-
 footer {
-    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
     width: 100%;
-    padding: 50px 0;
-    background-color: black;
+    padding: 25px 0;
+    background-color: var(--header-color);
+    font-weight: bold;
     color: white;
-    opacity: 0.85;
-    text-align: center;
     bottom: 0;
+}
+
+footer h3{
+    margin-bottom: 10px;
+}
+
+footer h4{
+    padding-bottom: 5px;
+}
+
+.address{
+    width: 40%;
+}
+
+.link_header{
+    width: 20%;
+}
+
+.link_header h4 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link_header h4 a:hover{
+    color: #2980b9;
+}
+
+.connection{
+    width: 20%;
+}
+
+.connection a{
+    margin-right: 12px;
 }

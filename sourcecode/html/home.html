@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <link rel="stylesheet" href="../../asset/css/base.css" />
     <link rel="stylesheet" href="../../asset/css/home.css" />
-    <link rel="icon" type="image/x-icon" href="../../asset/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="../../asset/img/logo_dacs.png" />
     <script
       src="https://kit.fontawesome.com/50a3c67631.js"
       crossorigin="anonymous"
@@ -30,8 +30,9 @@
       <!-- Header -->
       <div class="header">
         <div class="leftHeader">
-          <a class="domain" href="">
-            <span>LuatRung.vn</span>
+          <a class="domain" href=""">
+            <img src="../../asset/img/logo_dacs.png" alt="" style="height: 70px;">
+            <!-- <span>LuatRung.vn</span> -->
           </a>
           <a class="headerItem" href="../html/home.html">Trang chủ</a>
           <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
@@ -72,7 +73,10 @@
         <div class="container-slide">
           <!-- <img src="" alt="" /> -->
         </div>
-
+        <div class="road" style="margin: 15px 0 0 15px">
+          <i class="fa-solid fa-house"></i>
+          <a href="#" style="text-decoration: none; color: black">Trang chủ</a>
+        </div>
         <div class="container-content">
           <div class="content-1">
             <div class="container-showpara">
@@ -351,7 +355,7 @@
             <span>ĐANG ĐƯỢC QUAN TÂM</span>
             <hr />
             <div class="content-2-slide">
-              <img src="/asset/img/rung2.jpg" alt="" />
+              <img src="../../asset/img/rung2.jpg" alt="" />
               <span
                 >Bảo tồn các vườn quốc gia phải đặt con người làm trung
                 tâm</span
@@ -359,7 +363,7 @@
             </div>
 
             <div class="content-2-slide">
-              <img src="/asset/img/rung1.jpg" alt="" />
+              <img src="../../asset/img/rung1.jpg" alt="" />
               <span
                 >Phát triển nghề rừng bền vững là hạt nhân của tăng trưởng
                 xanh</span
@@ -367,7 +371,7 @@
             </div>
 
             <div class="content-2-slide">
-              <img src="/asset/img/rung3.jpg" alt="" />
+              <img src="../../asset/img/rung3.jpg" alt="" />
               <span
                 >Ảnh hiếm về bộ lạc sống như thời nguyên thủy trong rừng
                 Amazon</span
@@ -375,26 +379,49 @@
             </div>
 
             <div class="content-2-slide">
-              <img src="/asset/img/rung4.jpg" alt="" />
+              <img src="../../asset/img/rung4.jpg" alt="" />
               <span>Chủ động đối phó với "giặc lửa"</span>
             </div>
           </div>
         </div>
       </div>
       <!-- Footer -->
-      <footer>Designed by the group</footer>
+      <footer>
+        <div class="logo_footer">
+          <img src="../../asset/img/logo_dacs.png" alt="" style="height: 100px; margin-left: 40px">
+        </div>
+        <div class="address">
+          <h3>Designed by the group</h3>
+          <h4><i class="fa-solid fa-location-dot"></i> Địa chỉ: P. Nguyễn Trác - Yên Nghĩa - Hà Đông - Hà Nội</h4>
+          <h4><i class="fa-solid fa-phone"></i> Hotline: 0123456789</h4>
+          <h4><i class="fa-solid fa-envelope"></i> Email: info@phenikaa-uni.edu.vn</h4>
+          <h4><i class="fa-brands fa-google"></i> Website: www.vn</h4>
+        </div>
+        <div class="link_header">
+          <h3>Giới thiệu</h3>
+          <h4><a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a></h4>
+          <h4><a href="../html/search-nav-bar.html"><i class="fa-solid fa-magnifying-glass"></i> Tìm kiếm</a></h4>
+          <h4><a href="../html/new-para.html"><i class="fa-solid fa-newspaper"></i> Văn bản mới</a></h4>
+        </div>
+        <div class="connection">
+          <h3>Theo dõi chúng tôi trên</h3>
+          <a href="" style="font-size: 40px;"><i class="fa-brands fa-facebook"></i></a>
+          <a href="" style="font-size: 40px;"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </footer>
     </div>
 
     <!-- Switchtheme -->
     <script>
       function switchtheme() {
-        document.getElementById("wrap").addEventListener("click", function () {
-          this.style.backgroundColor =
-            this.style.backgroundColor === "black" ? "white" : "black";
-        });
+        document
+          .getElementById("wrap")
+          .addEventListener("click", function switchtheme() {
+            this.style.backgroundColor =
+              this.style.backgroundColor === "black" ? "white" : "black";
+          });
       }
     </script>
     <!-- End Switchtheme -->
-    
   </body>
 </html>
