@@ -31,8 +31,7 @@
       <div class="header">
         <div class="leftHeader">
           <a class="domain" href=""">
-            <img src="../../asset/img/logo_dacs.png" alt="" style="height: 70px;">
-            <!-- <span>LuatRung.vn</span> -->
+            <span>LuatRung.vn</span>
           </a>
           <a class="headerItem" href="../html/home.html">Trang chủ</a>
           <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
@@ -68,12 +67,12 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="container js-modalContainer">
         <!-- slide show  -->
         <div class="container-slide">
           <!-- <img src="" alt="" /> -->
         </div>
-        <div class="road" style="margin: 15px 0 0 15px">
+        <div class="road" style="margin: 15px 0 0 15px;">
           <i class="fa-solid fa-house"></i>
           <a href="#" style="text-decoration: none; color: black">Trang chủ</a>
         </div>
@@ -391,20 +390,20 @@
           <img src="../../asset/img/logo_dacs.png" alt="" style="height: 100px; margin-left: 40px">
         </div>
         <div class="address">
-          <h3>Designed by the group</h3>
+          <h3 style="width:200px;">Được thiết kế bởi nhóm</h3>
           <h4><i class="fa-solid fa-location-dot"></i> Địa chỉ: P. Nguyễn Trác - Yên Nghĩa - Hà Đông - Hà Nội</h4>
           <h4><i class="fa-solid fa-phone"></i> Hotline: 0123456789</h4>
           <h4><i class="fa-solid fa-envelope"></i> Email: info@phenikaa-uni.edu.vn</h4>
-          <h4><i class="fa-brands fa-google"></i> Website: www.vn</h4>
+          <h4><i class="fa-brands fa-google"></i> Website: www.LuatRung.vn</h4>
         </div>
         <div class="link_header">
-          <h3>Giới thiệu</h3>
+          <h3 style="width:90px;">Giới thiệu</h3>
           <h4><a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a></h4>
           <h4><a href="../html/search-nav-bar.html"><i class="fa-solid fa-magnifying-glass"></i> Tìm kiếm</a></h4>
           <h4><a href="../html/new-para.html"><i class="fa-solid fa-newspaper"></i> Văn bản mới</a></h4>
         </div>
         <div class="connection">
-          <h3>Theo dõi chúng tôi trên</h3>
+          <h3 style="width:200px;" >Theo dõi chúng tôi trên</h3>
           <a href="" style="font-size: 40px;"><i class="fa-brands fa-facebook"></i></a>
           <a href="" style="font-size: 40px;"><i class="fa-brands fa-instagram"></i></a>
         </div>
@@ -413,21 +412,18 @@
 
     <!-- Switchtheme -->
     <script>
+      const modalContainer = document.querySelector('.js-modalContainer')
       function switchtheme() {
-<<<<<<< HEAD
         document
           .getElementById("wrap")
-          .addEventListener("click", function switchtheme() {
+            .addEventListener("click", function switchtheme() {
             this.style.backgroundColor =
               this.style.backgroundColor === "black" ? "white" : "black";
           });
-=======
-        document.getElementById("wrap").addEventListener("click", function switchtheme() {
-          this.style.backgroundColor =
-            this.style.backgroundColor === "black" ? "white" : "black";
-        });
->>>>>>> 06a6dd69396aac29602b579ad08a4bbd32f068be
-      }
+        };
+        modalContainer.addEventListener("click", function switchtheme(event) {
+          event.stopPropagation()
+        })
     </script>
     <!-- End Switchtheme -->
   </body>
