@@ -62,7 +62,7 @@
     height: 3px;
     width: 100%;
     transform: scaleX(0);
-    background: linear-gradient(to right, rgba(171, 168, 192, 0.7), #2980b9);
+    background: linear-gradient(to right, rgba(171, 168, 192, 0.7), antiquewhite);
     bottom: 0;
     left: 0;
     transform-origin: bottom right;
@@ -280,7 +280,7 @@ input:checked+.slider:before {
 
 /* Start Slide */
 .container-slide {
-    width: 100%;
+    width: 85%;
     height: 38vh;
     display: flex;
     /* justify-content: center; */
