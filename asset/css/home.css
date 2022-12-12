@@ -6,7 +6,8 @@
         -moz-box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
     width: 70%;
     height: 120px;
-    border-radius: 15px;
+    max-height: 100%;
+    border-radius: 1px;
 }
 
 .input-search-content input:focus {
@@ -14,7 +15,7 @@
 }
 
 .input-search-content {
-    height: 100%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +34,7 @@
     background-color: var(--btn-color);
     font-size: 25px;
     height: 40px;
-    width: 60%;
+    width: 70%;
     cursor: pointer;
     border-radius: 15px;
     position: relative;
@@ -46,6 +47,26 @@
     line-height: 40px;
     padding-right: 15px;
 }
+
+.btn {
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* start hiden-search */
+.hiden-search-none{
+    display: none;
+}
+
+.hiden-search {
+    display: flex;
+    justify-content: space-around;
+}
+/* end hiden-search */
 
 .container-content{
     width: 100%;
@@ -70,7 +91,7 @@
     height: 681px;
     height: 100%;
     width: 30%;
-    border-radius: 15px;
+    border-radius: 2px;
     text-align: center;
     font-weight: 700;
     padding: 10px
