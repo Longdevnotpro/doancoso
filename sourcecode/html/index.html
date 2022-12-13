@@ -49,7 +49,7 @@ function HandleHomeShow() {
           <a class="domain" href="">
             <span>LuatRung.vn</span>
           </a>
-          <a class="headerItem" href="../html/index.html">Trang chủ</a>
+          <a class="headerItem" href="../html/index.html" style="border-bottom: 1px solid antiquewhite;">Trang chủ</a>
           <a class="headerItem" href="../html/search-nav-bar.html">Tìm kiếm</a>
           <a class="headerItem" href="../html/new-para.html">Văn bản mới</a>
          
@@ -69,7 +69,69 @@ function HandleHomeShow() {
         <div class="container-slide">
           <!-- <img src="" alt="" /> -->
         </div>
-    
+        <!-- start search law -->
+        <div class="road" style="margin: 15px 0 0 15px;">
+          <i class="fa-solid fa-house"></i>
+          <a href="#" style="text-decoration: none; color: black">Trang chủ /</a>
+        </div>
+        <div class="search-content">
+        <div class="input-search-content">
+          <div class="btn-search">
+            <input type="text" placeholder="Nhập nội dung tìm kiếm" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+         <div class="btn">
+          <span><i class="fa-solid fa-filter"></i>Tìm kiếm nâng cao</span>
+           <label for="">
+             <input type="radio" value="1" name="select"> Tất cả
+          </label>
+          <label for="">
+            <input type="radio" value="1" name="select"> Tiêu đề
+          </label>
+          <label for="">
+            <input type="radio" value="1" name="select"> Số hiệu văn bản
+          </label>
+          <div style="cursor: pointer;" onclick="clickShow()">
+            <span>Thu gọn</span>
+            <i class="fa-solid fa-caret-up"></i>
+          </div>
+        </div>
+        <div id="hiden-search-none" class="hiden-search-none">
+          <div class="hiden-search">
+            <select id="chương" name="Chương">
+              <option value="0">Chọn Chương:</option>
+              <option value="1">Chương 1</option>
+              <option value="2">Chương 2</option>
+              <option value="3">Chương 3</option>
+            </select>
+            <select id="điều" name="Điều">
+              <option value="">Chọn Điều:</option>
+              <option value="1">Điều 1</option>
+              <option value="2">Điều 2</option>
+              <option value="3">Điều 3</option>
+            </select>
+            <select id="khoản" name="Khoản">
+              <option value="0">Chọn Khoản:</option>
+              <option value="1">Khoản 1</option>
+              <option value="2">Khoản 2</option>
+              <option value="3">Khoản 3</option>
+            </select>
+            <select id="mục" name="Mục">
+              <option value="0">Chọn Mục:</option>
+              <option value="1">Mục 1</option>
+              <option value="2">Mục 2</option>
+              <option value="3">Mục 3</option>
+            </select>
+            <select id="mức phạt" name="Mức Phạt">
+              <option value="0">Chọn Mức Phạt:</option>
+              <option value="1">Mức Phạt 1</option>
+              <option value="2">Mức Phạt 2</option>
+              <option value="3">Mức Phạt 3</option>
+            </select> 
+          </div>
+        </div>
+      </div>
         <div class="container-content">
           <div class="content-1" id="content-1">
             <div class="container-showpara">
@@ -119,14 +181,15 @@ function HandleHomeShow() {
         </div>
         <div class="link_header">
           <h3 style="width:90px;">Giới thiệu</h3>
-          <h4><a href="../html/home.html"><i class="fa-solid fa-house"></i> Trang chủ</a></h4>
+          <h4><a href="#"><i class="fa-solid fa-house"></i> Trang chủ</a></h4>
           <h4><a href="../html/search-nav-bar.html"><i class="fa-solid fa-magnifying-glass"></i> Tìm kiếm</a></h4>
           <h4><a href="../html/new-para.html"><i class="fa-solid fa-newspaper"></i> Văn bản mới</a></h4>
         </div>
         <div class="connection">
           <h3 style="width:200px;" >Theo dõi chúng tôi trên</h3>
-          <a href="" style="font-size: 40px;"><i class="fa-brands fa-facebook"></i></a>
-          <a href="" style="font-size: 40px;"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/dragonsea1909" style="font-size: 40px;" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://instagram.com/longhoang19.09?igshid=YmMyMTA2M2Y=" style="font-size: 40px;" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/longhoang2k2" style="font-size: 40px;" target="_blank"><i class="fa-brands fa-twitter"></i></a>
         </div>
       </footer>`
 
@@ -135,6 +198,33 @@ function HandleHomeShow() {
 
     </script>
     <script src="../js/render.js"></script>
+    <script>
+      //Switchtheme
+      const modalContainer = document.querySelector('.js-modalContainer')
+      function switchtheme() {
+        document
+          .getElementById("wrap")
+            .addEventListener("click", function switchtheme() {
+            this.style.backgroundColor =
+              this.style.backgroundColor === "black" ? "white" : "black";
+          });
+        };
+        modalContainer.addEventListener("click", function switchtheme(event) {
+          event.stopPropagation()
+        })
+        // End Switchtheme
+
+        // Start Hiden Search
+        function clickShow() {
+        var x = document.getElementById("hiden-search-none");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+        // End Hiden Search
+    </script>
 </body>
 
 </html>

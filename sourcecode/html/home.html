@@ -39,7 +39,7 @@
           <!-- <a class="headerItem" href="../html/edit_remove.html">Chỉnh sửa điều khoản</a> -->
         </div>
 
-        <div class="rightHeader">
+        <div id="rightHeader" class="rightHeader">
           <a class="btn-login" href="../html/login.html">Đăng nhập</a>
 
           <a class="btn-register" href="../html/register.html">Đăng kí</a>
@@ -95,7 +95,7 @@
           <label for="">
             <input type="radio" value="1" name="select"> Số hiệu văn bản
           </label>
-          <div style="cursor: pointer;">
+          <div style="cursor: pointer;" onclick="clickShow()">
             <span>Thu gọn</span>
             <i class="fa-solid fa-caret-up"></i>
           </div>
@@ -488,6 +488,14 @@
         // End Switchtheme
 
         // Start Hiden Search
+        function clickShow() {
+        var x = document.getElementById("hiden-search-none");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
         // End Hiden Search
         </script>
   </body>

@@ -92,7 +92,6 @@
       "id": 14
     },
     {
-
       "username": "long",
       "email": "long19092k3@gmail.com",
       "password": "123456",
@@ -112,9 +111,14 @@
       "password": "123456",
       "type": 1,
       "id": 17
-
+    },
+    {
+      "username": "tuan",
+      "email": "tuan2k2@gmail.com",
+      "password": "123456",
+      "type": 1,
+      "id": 18
     }
-    
   ],
   "content": [
     {
